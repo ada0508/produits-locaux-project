@@ -1,0 +1,419 @@
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+header{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+}
+
+nav {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 10px;
+    
+}
+
+nav a {
+    color: #000;
+    text-decoration:none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.header-right {
+    float: right;
+    margin-top: 10px;
+}
+
+.icon-search, .icon-cart {
+    font-size: 18px;
+    margin-right:5px;
+    margin-left: 100px;
+    color: #666;
+}
+
+.icon-search:hover, .icon-cart:hover {
+    color: #333;
+}
+
+.subscribe {
+    background-color: #0d9e2f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left:300px;
+    border-radius: 10px;
+}
+.products-section {
+    padding: 40px;
+    ;
+  }
+  
+  .products-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .products-section h2 .small-text {
+    font-size: 16px;
+    color: #0d9e2f;
+}
+
+.btn-choose {
+    background-color: #0d9e2f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-choose:hover {
+    background-color: #444;
+  }
+  .image-container {
+    text-align: right; 
+    width: 100%; 
+  }
+  
+  .image {
+    float: right;
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: -200px;
+    border-radius: 10px;
+  }
+  
+
+
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 50px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    margin: 40px;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product span {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 14px;
+    color: #666;
+}
+
+.product span:last-child {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size:6px;
+   cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #3e8e41;
+    }
+  
+   .product:hover {
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   }
+
+   .testimonials {
+    padding: 40px 0;
+    background: rgba(0, 0, 0, 0.2) url();
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.testimonials p {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #666;
+    
+}
+
+.contenu {
+    position: relative;
+    max-width: 1200px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  
+}
+
+.boxes {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 30%;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.box h2 {
+    margin-top: 0;
+}
+
+.box p {
+    font-size: 16px;
+    color: #666;
+}
+
+.background {
+    
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .ada {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .left-section {
+    margin-right: 20px;
+  }
+  
+  .left-section img {
+    width: 300px;
+    height: 300px;
+    
+  }
+  
+  .text {
+    margin-top: 20px;
+  }
+  
+  .produits{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    grid-auto-rows: 200px;
+    
+  }
+  
+  .produits img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  .mail {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    text-align: center;
+    color: #333;
+  }
+  
+
+  input[type="email"] {
+    padding: 0.5rem 1rem;
+   
+    border: none;
+    margin-bottom: 1rem;
+  }
+  
+  input[type="submit"] {
+    padding: 0.5rem 1rem;
+    
+    border: none;
+   
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  .basket {
+    position: relative;
+    max-width: 1200px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.boites {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boite {
+    width: 30%;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.boite img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.boite h2 {
+    margin-top: 0;
+}
+
+.boite p {
+    font-size: 16px;
+    color: #666;
+}
+.ecrit{
+text-align: center;
+color: #3e8e41;
+
+}
+.contact-form {
+    
+    margin: 40px auto;
+    padding: 50px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  
+  
+  .contact-form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  
+  }
+  .main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+ 
+  .section {
+    text-align: left;
+    width: 30%;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  .contact {
+    margin-top: 20px;
+  }
+  
+  .copyright {
+    margin-top: 40px;
+    font-size: 14px;
+    padding: 1px 0;
+    text-align: center;
+  }
+  
+ 
